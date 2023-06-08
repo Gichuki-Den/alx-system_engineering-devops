@@ -1,4 +1,0 @@
-#!/bin/bash
-# add absolute path of pwd
-current_dir=$(pwd)
-echo $current_dir
