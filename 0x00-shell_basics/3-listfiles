@@ -1,3 +1,2 @@
 #!/bin/bash
-#print a list of directories with long format
 ls -l
