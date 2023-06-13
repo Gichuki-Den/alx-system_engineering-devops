@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR==3 {print; exit}' iacta
+IFS=$'\n' read -r _ _ third_line _ < iacta && echo "$third_line"
