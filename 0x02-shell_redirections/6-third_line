@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=$'\n' read -r _ _ third_line _ < iacta && echo "$third_line"
+head -3 iacta | tail -1
